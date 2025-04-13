@@ -7,14 +7,14 @@ import About from "./views/About.vue";
 import Phones from "./views/Phones.vue";
 import Laptops from "./views/Laptops.vue";
 import CardBuy from "./views/Card.vue";
-import Error from './views/404.vue';
+// import Error from './views/404.vue';
 import cases from "./views/cases.vue";
 import others from "./views/others.vue";
 Vue.use(VueRouter)
 
 const routes = [
     {path:'/', component:Home},
-    {path:'*', component:Error},
+    {path:'*', component:Home},
     {path:'/login', component:Login},
     {path:'/signin', component:Signin},
     {path:'/about', component:About},
