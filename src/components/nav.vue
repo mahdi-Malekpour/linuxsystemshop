@@ -86,8 +86,8 @@ height: 60px;
 /* منوی همبرگر (حالت اولیه) */
 .menu-list {
   display: none;
-  height: 30px;
-  width: 30px;
+  height: 26px;
+  width: 26px;
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
