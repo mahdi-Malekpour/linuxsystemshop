@@ -85,6 +85,7 @@ import ProductCard from './ProductCard.vue';
     .products-container {
       flex-direction: column;
       align-items: center;
+      padding: 0;
     }
   }
   </style>

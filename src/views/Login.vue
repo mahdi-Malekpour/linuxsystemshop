@@ -55,6 +55,7 @@ font-size: 12px;
     
 }
 .cont1{
+    z-index: -1;
     position: relative;
     margin-top: 50px;
     width: 320px;
