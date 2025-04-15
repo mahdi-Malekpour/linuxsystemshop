@@ -49,7 +49,7 @@ import ProductCard from './ProductCard.vue';
             description: '256gb رنگ ابی',
             price: 15990000,
             oldPrice: 17990000,
-            image: 'https://example.com/laptop1.jpg'
+            image: './../assets/menu/phone.png'
           },
           
           {

@@ -1,7 +1,7 @@
 <template>
     <div class="product-card">
       <div class="product-image">
-        <img :src="product.image" :alt="product.name" />
+        <img src="./../assets/menu/phone.png" :alt="product.name" />
       </div>
       <div class="product-details">
         <h3 class="product-title">{{ product.name }}</h3>
@@ -22,14 +22,14 @@
       product: {
         type: Object,
         required: true,
-        default: () => ({
-          id: 1,
-          name: 'نام محصول',
-          description: 'توضیحات کوتاه محصول',
-          price: 999000,
-          oldPrice: 1299000,
-          image: 'https://via.placeholder.com/300'
-        })
+        // default: () => ({
+        //   id: 1,
+        //   name: 'نام محصول',
+        //   description: 'توضیحات کوتاه محصول',
+        //   price: 999000,
+        //   oldPrice: 1299000,
+        //   image: 'https://via.placeholder.com/300'
+        // })
       }
     },
     methods: {

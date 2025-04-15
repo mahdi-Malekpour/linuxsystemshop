@@ -71,7 +71,7 @@ export default {
   transform: translateX(-100%);
 }
 .header {
-  margin-top: 8px;
+height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
