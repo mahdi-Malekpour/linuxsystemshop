@@ -22,14 +22,14 @@
       product: {
         type: Object,
         required: true,
-        default: () => ({
-          id: 1,
-          name: 'نام محصول',
-          description: 'توضیحات کوتاه محصول',
-          price: 999000,
-          oldPrice: 1299000,
-          image: 'https://via.placeholder.com/300'
-        })
+        // default: () => ({
+        //   id: 1,
+        //   name: 'نام محصول',
+        //   description: 'توضیحات کوتاه محصول',
+        //   price: 999000,
+        //   oldPrice: 1299000,
+        //   image: 'https://via.placeholder.com/300'
+        // })
       }
     },
     methods: {

@@ -36,6 +36,7 @@ export default {
 </script>
 <style scoped>
 .cont{
+    
     width: 100%;
     height: 100%;
    display: flex;
@@ -56,6 +57,7 @@ font-size: 12px;
 }
 
 .cont1{
+    z-index: -1;
     position: relative;
     margin-top: 50px;
     width: 320px;
